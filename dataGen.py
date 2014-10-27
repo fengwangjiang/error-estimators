@@ -1,6 +1,6 @@
 """
     
-    Generate random datasets according to different models from "high dimensional bolstered error estimation" 2011 by Chao Sima, et al.
+Generate random datasets according to different models from "high dimensional bolstered error estimation" 2011 by Chao Sima, et al.
 
 """
 import numpy as np
