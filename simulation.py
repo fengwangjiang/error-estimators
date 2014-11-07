@@ -39,7 +39,7 @@ def syntheticSim():
                 for d in ds:
                     FeaInd_d = featureSelection.t_test(XD,y,d)
                     for clf_opt in clf_opts:
-                        fn = "%s_dt%.1f_std_%.1f_D%d_d0%d_d%d.txt"%(clf_opt, dt, std, D, d0, d)
+                        fn = "%s_dt%.1f_std%.1f_D%d_d0%d_d%d.txt"%(clf_opt, dt, std, D, d0, d)
                         f = open(fn,'w')
                         f.write(header)
                         for i in range(N):
